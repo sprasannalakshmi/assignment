@@ -1,0 +1,14 @@
+ASSIGNMENT 1 A:
+
+write a detailed pseudocode for a simple program that takes a number as input, calculates the square if its even or the cube if its odd, and then cube if its odd, andthen outputs the result. incorporate conditional and looping constructs
+
+
+start
+declare square or cubbe calculator
+enter a number;
+if (number% 2==0)
+result = square(number);}
+else
+{
+result = cube(number);
+}

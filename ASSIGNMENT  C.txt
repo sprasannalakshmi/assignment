@@ -1,0 +1,33 @@
+ASSIGNMENT  C
+
+Function design and modularization .create a document that describes the design of two  modular functions: one that returns the factorial of a number, and another that calculates the nth Fibonacci  number. include pseudocode and a brief explanation of how modularity 
+
+pseudocode
+
+function factoria
+if n == 0 or n == 1 then
+return 1
+else
+return n * factorial(n - 1)
+end if
+end function
+
+
+
+Fibonacci number
+
+
+fibonacci(n)
+if n <= 1 then
+return n
+else
+previous = 0
+current = 1
+for i from 2 to n do
+next = previous + current
+previous = current
+current = next
+end for
+return current
+end if
+end function

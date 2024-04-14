@@ -1,0 +1,30 @@
+ASSIGNMENT B:
+  
+design a flowchart that outlines the logi for a user login process.it should include conditional paths for sucessful and unsucessful login attempts , and a loop that allows a user three attempts before locking the account.
+
+
+      Start             
+        |
+   Enter Username    
+        |
+   Enter Password    
+        |
+   Attempt Login 
+        |
+     Success? 
+        |
+    Logged In         
+        |
+        End               
+        |
+    Failed Login     
+        |
+  Increment Attempts
+        |
+     Exceeds 3? 
+        |
+       Yes     
+        |
+    Lock Account      
+        |
+       End               
